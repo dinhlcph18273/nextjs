@@ -1,12 +1,12 @@
-import * as React from 'react';
+import React from 'react';
 
-export interface IFooterProps {
+export interface FooterProps {
 }
 
-export default function Footer (props: IFooterProps) {
+export default function Footer (props: FooterProps) {
   return (
     <div>
-      
+      Footer
     </div>
   );
 }

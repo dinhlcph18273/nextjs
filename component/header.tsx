@@ -1,12 +1,12 @@
-import * as React from 'react';
+import React from 'react';
 
-export interface IHeaderProps {
+export interface HeaderProps {
 }
 
-export default function Header (props: IHeaderProps) {
+export default function Header (props: HeaderProps) {
   return (
     <div>
-      
+      Header
     </div>
   );
 }

@@ -1,21 +1,23 @@
-import Link from 'next/link'
-import React from 'react'
+import Footer from '@/component/footer';
+import Header from '@/component/header';
+import Link from 'next/link';
+import React from 'react';
 
-type Props = {}
+export interface AboutProps {
+}
 
-const About = (props: Props) => {
+export default function About (props: AboutProps) {
   return (
     <div>
-        <Link href={`/`}>
+      <Header/>
+      <Link href={`/`}>
             <a className='home'>Home Page</a>    
         </Link>    
         <Link href={`/about`}>About Page</Link>
-       <div>
-            About Page
-       </div>
-       
+        <div>
+          About Page
+        </div>
+        <Footer/>
     </div>
-  )
+  );
 }
-
-export default About
