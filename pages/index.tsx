@@ -1,5 +1,5 @@
 import Footer from '@/component/footer'
-import Header from '@/component/header'
+import Header from '@/component/Header'
 import type { NextPage } from 'next'
 import Link from 'next/link'
 
