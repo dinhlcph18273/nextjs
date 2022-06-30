@@ -7,7 +7,6 @@ import Link from 'next/link'
 const Home: NextPage = () => {
   return (
    <div>
-      <Header/>
       <Link href={`/`}>
             <a className='home'>Home Page</a>    
         </Link>    
@@ -15,7 +14,6 @@ const Home: NextPage = () => {
         <div>
           Home Page
         </div>
-        <Footer/>
    </div>
   )
 }

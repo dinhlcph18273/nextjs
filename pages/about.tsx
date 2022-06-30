@@ -9,7 +9,6 @@ export interface AboutProps {
 export default function About (props: AboutProps) {
   return (
     <div>
-      <Header/>
       <Link href={`/`}>
             <a className='home'>Home Page</a>    
         </Link>    
@@ -17,7 +16,6 @@ export default function About (props: AboutProps) {
         <div>
           About Page
         </div>
-        <Footer/>
     </div>
   );
 }
